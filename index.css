@@ -1,0 +1,144 @@
+
+body {
+    margin:0;
+    padding:0;
+    background-color: rgb(25, 93, 156);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.center, #center {
+    text-align: center;
+}
+
+.quote {
+    margin-top: 5%;
+    margin-bottom: 50ch;
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+}
+
+.right {
+    width: 70%;
+    position: absolute;
+    right: -20%;
+    overflow-x: hidden;
+}
+
+.section {
+    display: grid;
+    width: 45%;
+}
+
+.seczion {
+    height: 60ch;
+    margin-left: 10ch;
+}
+
+.seczioncenter {
+    height: 60ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seczioncenterlong {
+    height: 100ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.ass {
+    display: grid;
+    grid-row-gap: 4px;
+    align-items: center;
+}
+
+
+.power {
+    border: solid 1px;
+    height: 18px;
+}
+
+.power div {
+    background-color: white;
+    height: 100%;
+}
+    .spd {
+        width: 75%;
+    }
+    .mby {
+        width: 75.5%;
+    }
+    .stb {
+        width: 77%;
+    }
+    .ata {
+        width: 75.5%;
+    }
+    .atg {
+        width: 25%;
+    }
+    .def {
+        width: 73%;
+    }
+
+
+
+table, th, td {
+    table-layout: fixed ;
+    border: solid 1px white;
+    border-collapse: collapse;
+    text-align: center;
+} 
+
+table {
+    border-color: rgb(25, 93, 156);
+}
+
+th, td {
+    padding: 15px;
+    width: 25%;
+}
+
+td {
+    height: 50px;
+}
+
+.lefttable {
+    width: 25%;
+    text-align: justify;
+    word-break: break-all;
+    border: none;
+}
+
+tr:last-child {
+    text-align: center;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.pilot{
+    margin: 0 20%;
+    text-align: center;
+}
+
+.mobius {
+    margin: 2% 0 ;
+}
